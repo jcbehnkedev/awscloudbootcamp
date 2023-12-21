@@ -1,0 +1,4 @@
+aws sns subscribe \
+    --topic-arn "arn:aws:sns:us-east-1:978517974167:billing-alarm" \
+    --protocol email \
+    --notification-endpoint jcbehnke@gmail.com
